@@ -129,6 +129,6 @@ class MigrationCartalystSentinel extends Migration
             $table->dropColumn('last_login');
             $table->dropColumn('first_name');
             $table->dropColumn('last_name');
-        })
+        });
     }
 }
